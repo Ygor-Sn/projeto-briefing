@@ -1,27 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almodega com Leôncio</title>
+    <title>Almôndega com Leôncio</title>
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
     <header>
         <!-- aqui vai ser o banner da pagina -->
-            <Img src="IMG/Banner.png" alt="banner" width="280" height="280"></Img>
+            <Img src="IMG/Banner.png" alt="banner" width="240" height="240"></Img>
     </header>
     <nav>
         <!-- aqui vai a barra de navegação horizontal -->
-        <a href="">link</a>
-        <a href="">para</a>
-        <a href="">elemento</a>
+         <br>
+        <a href="inicio">INÍCIO |</a>
+        <a href="receitas">RECEITAS |</a>
+        <a href="contato">CONTATO</a>
     </nav>
     <section>
-        <!-- aqui vai o conteudo da pagina -->
-    </section>
+        <!-- conteudo da pagina -->
+        <div id="inicio">
+            <center><h1 style="font-size: 2em; color: brown; margin-bottom: 20px;">Sobre Nós</h1></center>
+            <Img align="right" src="IMG/leoncio cozinheiro.jpg" alt="homem com garfo e faca" width="230" height="280" ma></Img></a>
+            O resturante Almôndega com Leôncio é lugar perfeito para os amantes de almôndegas!
+            <br><br>
+            Inicialmente fundada em 1965 como uma brincadeira do nosso time, decidimos na época construir um
+            com temática com o famoso desenho "Pica Pau", e com isso não esperavamos chegar tão longe, porém 
+            estamos aqui até entregando almôndegas para nossas clientes que assim como nós também gosta do desenho
+            <br><br>
+            Nosso restaurante oferece muita diversão com os personagens interagindo com as crianças para ter uma
+            refeição divertida e ao mesmo tempo deliciosa, temos televisões onde está constantemente passando os
+            melhores episódios do nosso pássaro favorito, e os clientes podem assistir e se entreter do conforto
+            das mesas, também disponibilizamos brinquedos e bonecos para as crianças sempre se lembrarem que o
+            aqui no nosso restaurante tratamos nossos muito bem porque somos todos uma grande família feliz amantes
+            do desenho que marca gerações.
+            <br><br>
+            Aqui no Almôndega com Leôncio temos como prioridade trazer conforto e o melhor prato para nossos clientes,
+            com as mais deliciosas e variadas receitas feito com amor e carinho por nosso chefe.
+            <br><br>
+            Leôncio é um dos personagens mais conhecidos do desenho do "Pica Pau", sendo assim decidimos trazer
+            uma personalidade forte para nossos restaurantes, com decorações que trazem alegria para as crianças
+            e nostalgia para os fãs de longa data.
+            <br><br>
+        </div>
+        <hr color="brown">
+        <center>
+            <h1 id="jump_serv">Receitas</h1>
+        <div id="receitas">
+            <h2>Venha conhecer nossas receitas</h2>
+            <h6>Clique na imagem abaixo para acessar nossas receitas</h6>
+            <a href="Cardapio.html">
+            <Img src="IMG/Almôndegas.jpg" alt="receita" width="290" height="230"></Img></a>
+            <br><br>
+        </center>
     <footer>
-        <!-- rodape da pagina -->
+    <hr style="color:brown;">
+        <!-- rodapé da página -->
+        <section id="contato">
+            <center>
+                <h1>Contatos</h1>
+            </center>
+            <div class="Contatos">
+                <div>
+                    <p>📞 (11) 98765-4321</p>
+                    <p>📧 almondegasleoncio@email.com</p>
+                    <p>📍 Rua Pica Pau, 321 - São
+                        Paulo/SP</p>
+                    <p>⏰ Atendimento: Dom à Sab, das 11hrs às 22hrs</p>
+                    <br>
+                    <a href="https://instagram.com/reidaalmondega" target="_blank"
+                        style="margin: 0 10px; font-size: 1.8em; color: brown;">
+                        <Img src="IMG/instagram_icon.png" width="50px" height="50px"></Img>
+                    </a>
+                    <a href="https://wa.me/5511967496565" target="_blank"
+                        style="margin: 0 10px; font-size: 1.8em; color: #25d366;">
+                        <Img src="IMG/whatsapp_icon.png" width="50px" height="50px"></Img>
+                    </a>
+                </div>
+                <form action="https://formsubmit.co/SEUEMAIL@gmail.com" method="POST"
+                    style="max-width: 500px; margin: 20px auto;">
+                    <input type="text" name="nome" placeholder="Seu nome" required
+                        style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc;">
+                    <input type="email" name="email" placeholder="Seu e-mail" required
+                        style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc;">
+                    <input type="text" name="assunto" placeholder="Assunto" required
+                        style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc;">
+                    <textarea name="mensagem" placeholder="Escreva sua mensagem..." required
+                        style="width: 100%; padding: 10px; margin: 10px 0; height: 120px; border-radius: 8px; border: 1px solid #ccc;"></textarea>
+                    <button type="submit"
+                        style="background-color: #d2691e; color: white; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer;">Enviar</button>
+                </form>
+            </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
