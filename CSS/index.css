@@ -1,19 +1,46 @@
+html{
+    background-color: rgb(236, 236, 236);
+}
+
 header{
     background-color: brown;
     display: flex;
     justify-content: center;
     margin-bottom: -0.625rem;
 }
+
+header > img{
+    width: 19.834710743801654vw;
+    height: 26.200873362445414vh;
+    margin-bottom: 1.301rem;
+}
+
+/* header */
+
 nav{
     background-color: #fae7b2;
     text-align: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 nav > a{
     text-decoration: none;
     color: black;
 }
 
-h1{
+/* section */
+
+#inicio{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#inicio > div{
+    display: grid;
+}
+
+h1, #jump_serv{
     font-size: 2em;
     color: brown;
     margin-bottom: 20px;
@@ -24,7 +51,20 @@ h6{
 }
 
 hr{
-    color: brown;
+    background-color: brown;
+    height: 0.125rem;
+}
+
+#inicio > img , #receitas > img{
+    width: 19.00826446280992vw;
+    height: 31.65938864628821vh;
+}
+
+/* footer */
+
+.Contatos{
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -32,14 +72,14 @@ hr{
     margin: 10px;
 }
 .Contatos > a {
-    margin: 0 10px; font-size: 1.8em; color: brown;
+    margin: 0 10px; font-size: 1.8em;
 }
-.Contatos > input {
+form > input {
     width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: 1px solid #ccc;
 }
-.Contatos > textarea{
+form > textarea{
     width: 100%; padding: 10px; margin: 10px 0; height: 120px; border-radius: 8px; border: 1px solid #ccc;
 }
-.Contatos > textarea{
+form > button{
     background-color: #d2691e; color: white; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer;
 }
