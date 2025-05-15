@@ -1,0 +1,9 @@
+
+#Italiano, #Italino2,  #sanduba, #Express, #kids{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Italiano > div,#Italino2 > div,#sanduba > div, #Express > div, #kids > div, h2{
+    padding-bottom: 50px;
+}

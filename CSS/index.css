@@ -1,4 +1,6 @@
-html{
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: auto;
     background-color: rgb(236, 236, 236);
 }
 
@@ -10,8 +12,8 @@ header{
 }
 
 header > img{
-    width: 19.834710743801654vw;
-    height: 26.200873362445414vh;
+    width: 17.188459177409452vw;
+    height: 27.720739219712527vh;
     margin-bottom: 1.301rem;
 }
 
@@ -22,6 +24,7 @@ nav{
     text-align: center;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.3);
 }
 nav > a{
     text-decoration: none;
@@ -58,6 +61,11 @@ hr{
 #inicio > img , #receitas > img{
     width: 19.00826446280992vw;
     height: 31.65938864628821vh;
+}
+
+iframe{
+    width: 1500px;
+    height: 405px;
 }
 
 /* footer */
