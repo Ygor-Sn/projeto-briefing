@@ -7,3 +7,8 @@
 #Italiano > div,#Italino2 > div,#sanduba > div, #Express > div, #kids > div, h2{
     padding-bottom: 50px;
 }
+
+img:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ease-in-out;
+}

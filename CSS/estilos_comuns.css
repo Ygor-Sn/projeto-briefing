@@ -56,3 +56,9 @@ img.com-sombra {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
 }
+
+iframe{
+    width: 55.248618784530386vw;
+    height: 51.3347022587269vh;
+    padding-left: 3.125rem;
+}
